@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+nav {
+  background-color: tomato;
+  min-height: 60px;
+}
+header {
+  background-color: turquoise;
+  min-height: 150px;
+}
+main {
+  background-color: darkkhaki;
+  min-height: 350px;
+}
+aside {
+  background-color: darkolivegreen;
+  min-height: 200px;
+}
+footer {
+  background-color: cornflowerblue;
+  min-height: 80px;
+}
+article {
+  background-color: yellow;
+  min-height: 100px;
+}
+.placeholder {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 1 0 0;
+
+
+  /*
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  */
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
